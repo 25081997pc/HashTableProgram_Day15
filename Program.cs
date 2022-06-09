@@ -9,6 +9,7 @@
             Frequency frequency = new Frequency();
 
             Console.WriteLine("Frequency of Words: ");
+
             string str = "to be or not to be";
             frequency.count_frequency(str);
            
