@@ -12,6 +12,7 @@ namespace Hashtable_Day15
         public void count_frequency(string sentence)
         {
             Hashtable MyMapNode = new Hashtable();
+
             string[] arr = sentence.Split();
 
             for(int i = 0; i< arr.Length; i++)
