@@ -19,7 +19,7 @@ namespace Hashtable_Day15
             {
                 if (MyMapNode.ContainsKey(arr[i]))
                 {
-                    MyMapNode[arr[i]] = (int)MyMapNode[arr[i]] + 1;
+                    MyMapNode[arr[i]] = (int)MyMapNode [arr[i]] + 1;
                 }
                 else
                 {
